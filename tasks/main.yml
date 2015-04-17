@@ -1,0 +1,4 @@
+---
+- name: Install Docker
+  sudo: true
+  shell: wget -qO- https://get.docker.com/ | sh
